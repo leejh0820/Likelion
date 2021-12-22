@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Gamja+Flower&family=Nanum+Gothic&family=Nanum+Myeongjo&family=Stylish&family=Sunflower:wght@300&display=swap"
+        rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Sunflower', sans-serif;
+        }
+
+        #post-box {
+            width: 400px;
+            margin: 10px auto;
+            padding: 50px;
+            border: black solid;
+            border-radius: 5px;
+        }
+
+        .wrap {
+            margin: 10px auto;
+            width: 500px;
+
+        }
+
+        .image {
+            margin-left: 10px auto;
+            margin-right: 10px auto;
+            margin: 10px auto;
+            width: 300px
+        }
+    </style>
+    <script>
+        function hey() {
+            alert('주문이 완료되었습니다!');
+        }
+    </script>
+</head>
+
+<body>
+    <div class="form-post" id="post-box">
+        <div class="wrap">
+            <img class="image"
+                src=https://previews.123rf.com/images/hulinska1yevheniia/hulinska1yevheniia1310/hulinska1yevheniia131000020/22956801-ilustraci%C3%B3n-monocrom%C3%A1tica-del-vector-de-la-pluma-de-la-tinta.jpg?fj=1">
+
+            <p></p>
+            <span style="font-size: 30px; font-weight: bold;">만년필</span>
+            <span> </span>
+            <span> 가격: 10000원/개</span>
+            <h5>이 펜으로 공부하면 파이널 만점!!! (믿거나 말거나...)</h5>
+            <div>
+                <h1>주문하기</h1>
+            </div>
+            <div class="form-row">
+                <div class="input-group mb-3">
+                    <label for="inputEmail4">주문자 이름:</label>
+                    <input type="email" class="form-control">
+                </div>
+                <p></p>
+            </div>
+            <div class="form-group col-mb-3">
+                <label for="inputState">수량: </label>
+
+                <select id="inputState" class="form-control">
+                    <option selected> 수량을 선택하세요 </option>
+
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+                </select>
+                <p></p>
+                <div class="form-group">
+                    <label for="inputAddress">주소: </label>
+                    <input type="text" class="form-control">
+                </div>
+                <p></p>
+            </div>
+            <div class="form-group col-mb-3">
+                <label for="inputZip">전화번호: </label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+            </label>
+            <p></p>
+            <div>
+                <button onclick="hey()" type="button" class="btn btn-primary">주문하기</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
